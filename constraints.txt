@@ -1,0 +1,7 @@
+torch==2.3.1
+torchaudio==2.3.1
+transformers==4.35.2
+tokenizers==0.15.2
+TTS==0.22.0
+soundfile==0.13.1
+numpy
