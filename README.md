@@ -5,7 +5,7 @@ This project demonstrates instant Turkish voice synthesis — cloning a short re
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This repository shows how to:
 - Load and run the **XTTS-v2** text-to-speech model.
@@ -21,19 +21,16 @@ This repository shows how to:
 ## 🧩 Folder Structure
 
 turkish-tts-xtts/
-│
-├── demo_xtts_turkish.py      # Main TTS demo script
-├── requirements.txt           # Project dependencies
-├── constraints.txt            # Version pinning
-│
-├── samples/                   # Input Turkish voice samples
-│   ├── ref_tr.wav             # Reference audio
-│   └── testsampler.m4a        # Alternate sample
-│
-├── outputs/                   # Synthesized output speech
-│   └── xtts_tr.wav
-│
-└── README.md
+demo_xtts_turkish.py      # Main TTS demo script
+requirements.txt           # Project dependencies
+constraints.txt            # Version pinning
+samples/                   # Input Turkish voice samples
+ref_tr.wav             # Reference audio
+testsampler.m4a        # Alternate sample
+outputs/                   # Synthesized output speech
+  xtts_tr.wav
+
+README.md
 
 
 ## 🧠 Model & Tools
@@ -55,14 +52,14 @@ turkish-tts-xtts/
 git clone https://github.com/ozturkipec/turkish-tts-xtts.git
 cd turkish-tts-xtts
 
-2️⃣ Create environment
+### 2️⃣ Create environment
 conda create -n turkish_tts python=3.10
 conda activate turkish_tts
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-4️⃣ Run the demo
+### 4️⃣ Run the demo
 python demo_xtts_turkish.py "Bugün veri bilimi çalışıyorum."
 
 Output will be saved as:
